@@ -127,6 +127,7 @@ def menu():
     print("下载已完成，文件保存在：%s"%getcwd())
     input("按下回车键退出")
 
+    
 def main():
     """
     主函数调用菜单函数以开始
@@ -142,6 +143,7 @@ def main():
 
     menu()
 
+    
 if __name__ == "__main__":
     main()
             
